@@ -117,62 +117,106 @@ header ul li {
     width: 79%;
     height: 300px;
     border: 3px solid black;
-    background-color: #5A5A66;
+    background-image: url("../images/skyline.jpg");
+    background-size:contain;
+}
+
+.item1 p {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(229, 229, 229, 0.8);
+    margin: 2px;
 }
 
 .item2 {
     float: left;
     width: 39%;
     height: 200px;
-    background-color: #5A5A66;
+    background-image: url("../images/blue1.jpg");
+    background-size:contain;
     margin-top: 10px;
     border: 3px solid black;
+}
+
+.item2 p {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(229, 229, 229, 0.8);
+    margin: 2px;
 }
 
 .item3 {
     float: right;
     width: 39%;
     height: 200px;
-    background-color: #5A5A66;
+    background-image: url("../images/blue2.jpg");
+    background-size:contain;
     margin-top: 10px;
     border: 3px solid black;
+}
+
+.item3 p {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(229, 229, 229, 0.8);
+    margin: 2px;
 }
 
 .item4 {
     float: left;
     width: 39%;
     height: 200px;
-    background-color: #5A5A66;
+    background-image: url("../images/blue3.jpg");
+    background-size:contain;
     margin-top: 10px;
     border: 3px solid black;
     margin-bottom: 10px;
+}
+
+.item4 p {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(229, 229, 229, 0.8);
+    margin: 2px;
 }
 
 .item5 {
     float: right;
     width: 39%;
     height: 200px;
-    background-color: #5A5A66;
+    background-image: url("../images/blue4.jpg");
+    background-size:contain;
     margin-top: 10px;
     border: 3px solid black;
     margin-bottom: 10px;
+}
+
+.item5 p {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(229, 229, 229, 0.8);
+    margin: 2px;
 }
 
 .contact {
     float: right;
     width: 79%;
     height: 150px;
-    background-color: #5A5A66;
-    border: 3px solid black;
     padding-top: 60px;
     padding-left: 15px;
 }
 
-.contact p {
-    display: inline;
-    text-align: center;
-    margin: 35px;
-    font-size: larger;
+.contact ul li {
+    display: inline-block;
+    padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(229, 229, 229, 0.3);
+    margin: 10px;
 }
 
 #avatar {
