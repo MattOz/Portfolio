@@ -9,14 +9,15 @@ a {
 }
 
 body {
-    background-color:rgb(177, 177, 177);
+    background-color:rgb(211, 242, 255);
     padding: 10px 10px 10px 10px;
 }
 
 header {
     padding: 20px;
-    background-color: #5A5A66;
-    border: 5px solid black;
+    border: 3px solid black;
+    border-bottom: none;
+    background-color: #71BCDB;
     height: 100px;
 }
 
@@ -33,38 +34,90 @@ header ul li {
     display: inline-block;
     float: right;
     padding: 10px;
+    border: 3px solid black;
+    background-color: rgb(229, 229, 229, 0.3);
+    margin: 2px;
 }
 
 .subtitle {
-    background-color: #5A5A66;
+    background-image: url("../images/blue-mountains.png");
+    background-size:contain;
     height: 200px;
-    margin-top: 10px;
     margin-bottom: 10px;
-    border: 5px solid black;
+    border: 3px solid black;
+    border-top: none;
 }
 
 .subtitle h4 {
     float: right;
     margin-top: 160px;
     margin-right: 10px;
-    font-size: larger;
+    font-size:xx-large;
+    color: white;
 }
 
-.sidebar {
+.sidebar1 {
     float: left;
     width: 20%;
-    height: 719px;
-    background-color: #5A5A66;
+    height: 150px;
     margin-right: 1%;
-    border: 5px solid black;
+    border-right: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.sidebar2 {
+    float: left;
+    width: 20%;
+    height: 720px;
+    margin-right: 1%;
+    border-right: 3px solid black;
+    margin-bottom: 10px;
+}
+
+.sidebar3 {
+    float: left;
+    width: 20%;
+    height: 150px;
+    margin-right: 1%;
+    border-right: 3px solid black;
+    margin-bottom: 10px;
+}
+
+#aboutSide {
+    font-size: xx-large;;
+    float: right;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+#workSide {
+    font-size: xx-large;;
+    float: right;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+#contactSide {
+    font-size: xx-large;;
+    float: right;
+    margin-right: 15px;
+    margin-top: 50px;
+}
+
+.aboutMe {
+    float: right;
+    width: 79%;
+    height: 150px;
+    margin-bottom: 10px;
+    font-size: larger;
 }
 
 .item1 {
     float: right;
     width: 79%;
-    background-color: #5A5A66;
     height: 300px;
-    border: 5px solid black;
+    border: 3px solid black;
+    background-color: #5A5A66;
 }
 
 .item2 {
@@ -73,7 +126,7 @@ header ul li {
     height: 200px;
     background-color: #5A5A66;
     margin-top: 10px;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 
 .item3 {
@@ -82,7 +135,7 @@ header ul li {
     height: 200px;
     background-color: #5A5A66;
     margin-top: 10px;
-    border: 5px solid black;
+    border: 3px solid black;
 }
 
 .item4 {
@@ -91,7 +144,8 @@ header ul li {
     height: 200px;
     background-color: #5A5A66;
     margin-top: 10px;
-    border: 5px solid black;
+    border: 3px solid black;
+    margin-bottom: 10px;
 }
 
 .item5 {
@@ -100,24 +154,32 @@ header ul li {
     height: 200px;
     background-color: #5A5A66;
     margin-top: 10px;
-    border: 5px solid black;
-}
-
-.footerSide {
-    float: left;
-    width: 20%;
-    height: 100px;
-    background-color: #5A5A66;
-    margin-right: 1%;
-    margin-top: 10px;
-    border: 5px solid black;
+    border: 3px solid black;
+    margin-bottom: 10px;
 }
 
 .contact {
     float: right;
     width: 79%;
-    height: 100px;
+    height: 150px;
     background-color: #5A5A66;
-    margin-top: 10px;
-    border: 5px solid black;
+    border: 3px solid black;
+    padding-top: 60px;
+    padding-left: 15px;
+}
+
+.contact p {
+    display: inline;
+    text-align: center;
+    margin: 35px;
+    font-size: larger;
+}
+
+#avatar {
+    height: 135px;
+    width: 135px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: 3px solid black;
 }
