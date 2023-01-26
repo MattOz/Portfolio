@@ -39,7 +39,7 @@ header ul li {
     margin: 2px;
 }
 
-.subtitle {
+.subTitle {
     background-image: url("../images/blue-mountains.png");
     background-size:contain;
     height: 200px;
@@ -48,7 +48,7 @@ header ul li {
     border-top: none;
 }
 
-.subtitle h4 {
+.subTitle h4 {
     float: right;
     margin-top: 160px;
     margin-right: 10px;
@@ -56,7 +56,7 @@ header ul li {
     color: white;
 }
 
-.sidebar1 {
+.sidebarShort {
     float: left;
     width: 20%;
     height: 150px;
@@ -65,7 +65,7 @@ header ul li {
     margin-bottom: 10px;
 }
 
-.sidebar2 {
+.sidebarLong {
     float: left;
     width: 20%;
     height: 720px;
@@ -74,30 +74,8 @@ header ul li {
     margin-bottom: 10px;
 }
 
-.sidebar3 {
-    float: left;
-    width: 20%;
-    height: 150px;
-    margin-right: 1%;
-    border-right: 3px solid black;
-    margin-bottom: 10px;
-}
 
-#aboutSide {
-    font-size: xx-large;;
-    float: right;
-    margin-right: 15px;
-    margin-top: 50px;
-}
-
-#workSide {
-    font-size: xx-large;;
-    float: right;
-    margin-right: 15px;
-    margin-top: 50px;
-}
-
-#contactSide {
+#side {
     font-size: xx-large;;
     float: right;
     margin-right: 15px;
@@ -207,7 +185,7 @@ header ul li {
     float: right;
     width: 79%;
     height: 150px;
-    padding-top: 60px;
+    padding-top: 50px;
     padding-left: 15px;
 }
 
